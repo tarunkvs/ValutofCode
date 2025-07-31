@@ -1,0 +1,92 @@
+body{
+background: #000;
+background-image: url('pattern.svg');
+background-blend-mode: overlay;
+position:relative;
+}
+.mainhead{
+    color:aliceblue; 
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+#maincard{
+    border:0px solid transparent;
+    width:90vh;
+    height:120vh;
+    margin-left:30%;
+    border-radius:20px;
+    background-image:url('burger1.jpg');
+    background-repeat: no-repeat;
+    background-size:100vh 120vh;
+    background-blend-mode:multiply;
+    background-color:rgb(167, 167, 167);
+    box-shadow: 0 4px 30px rgba(255, 253, 253, 10);
+    transition:0.3s ease;
+    transform-origin: center center;
+}
+#maincard:hover{
+    transform:scale(1.1);
+box-shadow:0 0 15px rgba(255, 107, 1, 100);
+
+}
+
+#maincard h1{
+    color:white;
+    margin-left:5%;
+    font-family: "Savate", sans-serif;
+    font-weight: 700;
+    font-size:50px;
+}
+button{
+    width:100px;
+    height:40px;
+    margin-left:20px;
+    Background-color: #FF6B6B;
+    border:none;
+    border-radius:20px;
+    font-size: 15px;
+    transition:0.3s ease;
+transform-origin: center center;
+}
+button:hover{
+    transform:scale(1.1);
+    background-color:#FFC857;
+    box-shadow: 0 0 10px rgba(255, 200, 87, 0.5), 
+            0 0 20px rgba(255, 200, 87, 0.4), 
+            0 0 30px rgba(255, 200, 87, 0.3);
+
+}
+.ingbox{
+    border:1px solid white;
+    margin-left:-30px;
+    border-radius:20px;
+    width:180px;
+    
+}
+.ingbox li{
+margin-left:20px;
+}
+.progress-bar {
+  background-color: #444;
+  height: 10px;
+  width: 100%;
+  border-radius: 5px;
+  margin-top:60px;
+}
+.progress-bar-fill {
+  background-color: #f39c12;
+  height: 100%;
+  width: 0%;
+  border-radius: 5px;
+  transition: width 0.3s ease;
+}
+.steps{
+    list-style:none;
+    color:white;
+    font-family: "Oswald",sans-serif;
+}
+.button100 {
+  display: flex;
+  gap: 10px;
+  margin-left:-10px;
+}
+

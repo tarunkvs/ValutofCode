@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe card</title>
+    <link rel="stylesheet" href="card.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script src="card.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Savate:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Savate:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    </div>
+    <section id="maincard">
+        <div class=mainhead><h1>Loaded<br>Gourmet<br>Cheeseburger</h1></div>
+<div class="heading2">
+    <button onclick="toggleIngredients()">Show Ingredients</button>
+    <ul id="myingredients" style="display:none;color:white;list-style:none;font-family:Oswald,sans-serif">
+        <div class="ingbox">
+        <li>2 Burger Buns</li>
+        <li>Lettace, Tomato, Onion</li>
+        <li>1 Slice of Cheese</li>
+        <li>1 Patty</li>
+        </div>
+    </ul>
+    </div>
+</div>
+<br>
+<div class="Recipe">
+    <div class="button100">
+        <br>
+        <button onclick="startCooking()" style="margin-top:5px;">Start Cooking</button>
+        <button id="nextBtn" onclick="nextStep()" style="display:none; margin-top:5px; background-color:#00C9A7;">Next Step</button>
+    </div>
+        <h3 style="font-family:Oswald,sans-serif; margin-left:20px; color:white;">Instructions</h3>
+
+    <ul class="steps">
+        <li>Toast the bun lightly.</li>
+        <li>Grill the beef patty for 4 minutes per side.</li>
+        <li>Add cheese slice and let it melt</li>
+        <li>assemble: Spread sauces, add veggies and patty</li>
+        <li>Serve with fries and enjoy</li>
+        </ul>
+        <div class="progress-bar">
+            <div class="progress-bar-fill" id="progressFill"></div>
+        </div>
+</div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<br>
